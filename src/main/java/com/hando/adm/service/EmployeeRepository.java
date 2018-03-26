@@ -3,14 +3,15 @@ package com.hando.adm.service;
 import com.hando.adm.dto.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
-@Service
-public class EmployeeService {
+@Repository
+public class EmployeeRepository {
 
     @Autowired
     protected JdbcTemplate jdbcTemplate;
