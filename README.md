@@ -6,7 +6,7 @@ A simple spring rest CRUD app demo. Built with Gradle, Spring Boot 2 and H2 data
 2. "/employee-registry/update"  for updating users
 3. "/employee-registry/delete"  for removing user
 4. "/employee-registry/info/{employeeId}"  for getting info on specific employee
-5."/employee-registry/employeeList/{supervisorId}"  for getting a list of epmployees under a specific supervisor
+5. "/employee-registry/employeeList/{supervisorId}"  for getting a list of epmployees under a specific supervisor
 
 ### initial supervisor ID's
 1. 8987
